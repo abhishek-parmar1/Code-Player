@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Code Player</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				Code Player
+			</div>
+			<div id="buttton_container">
+				<div class="toggle_button active" id="html">HTML</div>
+				<div class="toggle_button" id="css">CSS</div>
+				<div class="toggle_button" id="javascript">Java Script</div>
+				<div class="toggle_button active" id="output">Output</div>
+			</div>
+		</div>
+
+		<div id="body_Container">
+
+
+			<!-- html text area begins here ------------------------------------------------------------- -->
+			
+			<textarea id="html_Pannel" class="pannel">
+
+  <!DOCTYPE html>
+  <html>
+	  <head>
+		  <meta charset="utf-8">
+		  <title> Code Player </title>
+	  </head>
+  <body >
+	  <p id="para"> // code here ( remove javascript effect ) </p> 
+  </body>
+  </html> 	
+
+			</textarea>
+
+			<!-- html text area ends here -------------------------------------------------------------- -->
+
+
+			<!-- css text area begins here ------------------------------------------------------------- -->
+			
+			<textarea id="css_Pannel" class="pannel hidden"> 
+	
+  p{  
+     font-family:san-serif; 
+     color:green; 
+     font-size:20px;  
+  }
+
+			</textarea>
+
+			<!-- css text area ends here -------------------------------------------------------------- -->
+			
+
+			<!-- javascript text area begins here ----------------------------------------------------- -->
+			
+			<textarea id="javascript_Pannel" class="pannel hidden">
+
+ document.getElementById("para").innerHTML = "Hi there"
+			
+			</textarea>
+
+			<!-- javascript text area ends here ----------------------------------------------------- -->
+
+			<iframe id="output_Pannel" class="pannel"></iframe>
+
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		
+	</body>
+</html>
