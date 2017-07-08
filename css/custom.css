@@ -24,7 +24,7 @@ body{
 	padding: 6px;
 	border: 1px solid grey;
 	border-right: none;
-	font-size: 90%;
+	font-size: 13px;
 }
 .active{
 	background-color: #E8F2FF;
